@@ -97,6 +97,7 @@ namespace ReadAssistant
             {
                 int maxPatience = ReadBook.instance.GetMaxPatience();
                 Main.wenMax = (int)Math.Ceiling(Math.Log(maxPatience, 2));
+                Main.wen = 0;
             }
         }
     }
